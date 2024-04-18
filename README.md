@@ -4,6 +4,11 @@ FlexiBank is a digital banking application that allows users to manage their fin
 
 ## Live Demo
 https://praneya-flexibank.vercel.app/
+
+## Login Credentials
+username: jp
+
+password: 2222
 ## Features
 
 * View account balance
