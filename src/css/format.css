@@ -1,0 +1,16 @@
+/* styles.css */
+
+/* Add your CSS styles here */
+.nav__container {
+    display: flex;
+    align-items: center;
+}
+
+.nav__additional-content {
+    font-size: 20px; /* Adjust font size as needed */
+    margin-right: 10px; /* Adjust margin as needed */
+}
+
+.nav__logo {
+    width: 50px; /* Adjust logo size as needed */
+}

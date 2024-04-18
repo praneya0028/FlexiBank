@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="shortcut icon" type="image/png" href="img/flex.png" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/src//css/style.css" />
+  <link rel="stylesheet" href="/src//css/format.css">
+  <link rel="stylesheet" href="/src//css/responsive.css" />
+  <title>FlexiBank | When Banking Goes Minimal</title>
+  <script defer src="/src/pages/home/index.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <div class="nav__container">
+        <img src="img/flex.png" alt="Bankist logo" class="nav__logo" id="logo" /> 
+        <span class="nav__additional-content">FlexiBank</span>
+    </div>
+
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class="nav__link" href="#section--1">Features</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--2">Operations</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#section--3">Testimonials</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link nav__link--btn btn--show-modal" href="/src/pages/login/login.html">Open
+            account</a>
+        </li>
+      </ul>
+      <img class="hamburger" src="img/hamburger.png" alt="" />
+    </nav>
+
+    <div class="header__title">
+      <section class="header-content">
+        <h1>
+          When
+          <!-- Green highlight effect -->
+          <span class="highlight">Banking</span>
+          Goes<br />
+          <span class="highlight">Minimal</span>
+        </h1>
+        <h4>A simpler banking experience for a simpler life.</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      </section>
+
+      <img src="img/hero.png" class="header__img" alt="Minimalist bank items" />
+    </div>
+  </header>
+
+  <section class="section section-1 " id="section--1">
+    <div class="section__title">
+      <h2 class="section__description">Features</h2>
+      <h3 class="section__header">
+        Everything you need in a modern bank and more.
+      </h3>
+    </div>
+
+    <div class="features">
+      <section class="feature-one">
+        <img src="img/digital-lazy.jpg" data-src="img/digital.jpg" alt="Computer" class="features__img lazy-img" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-monitor"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">100% digital bank</h5>
+          <p>
+            Experience banking like never before with our 100% digital platform. Say goodbye to long queues and paperwork. With our intuitive online banking system, you can manage your finances anytime, anywhere. Whether you're at home, at work, or on the go, access your account effortlessly and enjoy the convenience of modern banking at your fingertips.
+          </p>
+        </div>
+      </section>
+      <section class="feature-two">
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-trending-up"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Watch your money grow</h5>
+          <p>
+            Invest in your future and watch your money grow with our comprehensive range of financial services. From savings accounts to investment portfolios, we offer tailored solutions to help you achieve your financial goals. With competitive interest rates and expert advice, take control of your finances and pave the way for a prosperous tomorrow.
+          </p>
+        </div>
+        <img src="img/grow-lazy.jpg" data-src="img/grow.jpg" alt="Plant" class="features__img lazy-img" />
+      </section>
+      <section class="feature-three">
+        <img src="img/card-lazy.jpg" data-src="img/card.jpg" alt="Credit card" class="features__img lazy-img" />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/icons.svg#icon-credit-card"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Free debit card included</h5>
+          <p>
+            Enjoy the perks of seamless transactions with our free debit card included in every account. Say hello to hassle-free payments and easy access to your funds. Whether you're shopping online or dining out, our debit card offers convenience and security wherever you go. Experience banking made simple with our complimentary debit card feature.
+          </p>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <section class="section " id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">Operations</h2>
+      <h3 class="section__header">
+        Everything as simple as possible, but no simpler.
+      </h3>
+    </div>
+
+    <section class="operations">
+      <section class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Instant Transfers
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Instant Loans
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>Instant Closing
+        </button>
+      </section>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-upload"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Tranfser money to anyone, instantly! No fees, no BS.
+        </h5>
+        <p>
+          With our revolutionary money transfer feature, sending funds to friends, family, or anyone else has never been easier. Say goodbye to lengthy processing times and hidden fees. Our platform ensures that your transfers are completed instantly, without any hassle. Whether you're splitting bills with friends, sending a gift to a loved one, or paying back a loan, you can do it all seamlessly with FlexiBank. Plus, with no hidden fees or fine print, you can trust that your money will go where it needs to go, without any surprises along the way.
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-home"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          Buy a home or make your dreams come true, with instant loans.
+        </h5>
+        <p>
+          Ready to turn your dreams into reality? With FlexiBank's instant loan feature, you can access the funds you need to buy a home, start a business, or pursue any other goal you have in mind. Our streamlined application process makes it quick and easy to apply for a loan, with no lengthy paperwork or waiting periods. Whether you're a first-time homebuyer or a seasoned entrepreneur, our flexible loan options are designed to meet your unique needs. Say goodbye to long approval times and hello to instant access to the funds you need to make your dreams a reality.
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <svg>
+            <use xlink:href="img/icons.svg#icon-user-x"></use>
+          </svg>
+        </div>
+        <h5 class="operations__header">
+          No longer need your account? No problem! Close it instantly.
+        </h5>
+        <p>
+          Life is full of changes, and we understand that your banking needs may evolve over time. That's why FlexiBank offers the convenience of instant account closure. Whether you're switching to a new bank or simply no longer need your account, closing it is as easy as a few clicks. Say goodbye to the hassle of lengthy closure processes and waiting periods. With FlexiBank, you can close your account instantly, without any hassle or inconvenience. So go ahead, make the switch with confidence, knowing that we've got you covered every step of the way.
+        </p>
+      </div>
+    </section>
+  </section>
+
+  <section class="section " id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">Not sure yet?</h2>
+      <h3 class="section__header">
+        Millions of Bankers are using FlexiBank, which is making their lifes simpler.
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide slide--1">
+        <div class="testimonial">
+          <h5 class="testimonial__header">Best financial decision ever!</h5>
+          <blockquote class="testimonial__text">
+            Switching to this bank was one of the best decisions I've made. Their customer service is top-notch, the online banking experience is seamless, and I've never had any issues with transactions. Highly recommended!
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Ian Watson</h6>
+            <p class="testimonial__location">San Francisco, USA</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--2">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            The last step to becoming a complete minimalist
+          </h5>
+          <blockquote class="testimonial__text">
+            As a small business owner, I rely on this bank for all my financial needs. Their business banking solutions have helped me streamline operations and manage cash flow effectively. Plus, their support team is always available to assist with any questions or concerns.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Sarah Miles</h6>
+            <p class="testimonial__location">Raleigh, NC</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide slide--3">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            Finally free from old-school banks
+          </h5>
+          <blockquote class="testimonial__text">
+            "I've been a customer for years, and I continue to be impressed by the convenience and reliability of their services. Whether it's applying for a loan or simply checking my balance, everything is straightforward and hassle-free.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Shane Gomes</h6>
+            <p class="testimonial__location">Dallas, Texas</p>
+          </address>
+        </div>
+      </div>
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <div class="overlay hidden"></div>
+</body>
+
+</html>
