@@ -2,6 +2,8 @@
 
 FlexiBank is a digital banking application that allows users to manage their finances conveniently and securely.
 
+## Live Demo
+https://praneya-flexibank.vercel.app/
 ## Features
 
 * View account balance
